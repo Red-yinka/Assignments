@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Registration</title>
+     <style>
+          body{
+               font-family: Verdana, Geneva, Tahoma, sans-serif;
+               color: rgb(11, 11, 105);
+          }
+          main{
+               width: 50%;
+               margin: auto;
+               background-color: rgb(194, 192, 192);
+
+          }
+          h1{
+               text-align: center;
+               /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+               font-size: 40px;
+          }
+          p{
+               text-align: center;
+               /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+               font-size: 20px;
+          }
+          table{
+               width: 70%;
+               margin: auto;
+          }
+          td{
+               height: 20px;
+          }
+          .Fill{
+               width: 100%;
+               height: 40px;
+               font-family: Verdana, Geneva, Tahoma, sans-serif;
+               font-size: 15px;
+          }
+          .btn{ 
+               padding: 12px 185px;
+               background-color: rgb(11, 11, 105);
+               color: white;
+               border: none;
+               font-family: Verdana, Geneva, Tahoma, sans-serif;
+               font-size: 15px;
+          }
+          .btntd{
+               text-align: center;
+               color: white;
+               
+          }
+          .sign{
+               text-align: center;
+          }
+     </style>
+</head>
+<body>
+     <main>
+          
+               <h1>Welcome!!</h1>
+               <p>Please fill in the details to get started.</p>
+               <form action="">
+                    <table cellpadding="10">
+                         <tr>
+                              <td><label for="name">Firstname:</label></td>
+                         </tr>
+                         <tr>
+                              <td><input type="text" name="firstname" id="" placeholder="Enter your first name here" class="Fill" required></td>
+                         </tr>
+                         <tr>
+                              <td><label for="text">Lastname:</label></td>
+                         </tr>
+                         <tr>
+                              <td><input type="text" name="lastname" id="" placeholder="Enter your last name here" class="Fill" required></td>
+                         </tr>
+                         <tr>
+                              <td><label for="number" class="Fill">Phone No.:</label></td>
+                         </tr>
+                         <tr>
+                              <td><input type="phone number" name="phoneno" id="" placeholder="+2348022244445" class="Fill" required></td>
+                         </tr>
+                         <tr>
+                              <td><label for="email">Email:</label></td>
+                         </tr>
+                         <tr>
+                              <td><input type="email" name="email" id="" placeholder="Enter your email here" class="Fill" required></td>
+                         </tr>
+                         <tr>
+                              <td><label for="pwd">Password:</label></td>
+                         </tr>
+                         <!-- pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])" -->
+                         <tr>
+                              <td><input type="password" name="pwd" id="" placeholder="********" class="Fill" required></td>
+                         </tr>
+                         <tr>
+                              <td><label for="gender">Gender</label></td>
+                         </tr>
+                         <tr>
+                              <td><input type="checkbox" name="Male" id="male"><label for="gender">Male</label></td>
+                         </tr>
+                         <tr>
+                              <td><input type="checkbox" name="Female" id="female"><label for="gender">Female</label></td>
+                         </tr>
+                         <tr>
+                              <td><label for="date">Date of Birth</label></td>
+                         </tr>
+                         <tr>
+                              <td><input type="date" name="" id="" class="Fill"></td>
+                         </tr>
+                         <tr>
+                              <td><label for="color">Favorite color:</label> <input type="color" name="mycolor" id=""></td>
+                         </tr>
+                         <tr>
+                              <td class="btntd"><input type="submit" value="Sign Up" class="btn"></td>
+                         </tr>
+                         <tr>
+                              <td class="sign">Already have an account? <a href="Log_In.html" target="_blank">Sign In</a>.</td>
+                         </tr>
+                    </table>
+                    
+               </form>
+     </main>
+     <footer>
+          <p>A Trainee of <a href="training.zuri.team">I4GxZuri Training</a> Cohort2 Training.</p>
+          <p><small>&copy; 2022 Zuri Training</small></p>
+  </footer>
+     
+     
+</body>
+</html>
